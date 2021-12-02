@@ -3,6 +3,7 @@ input {
 }
 
 .boton {
+    margin-left: 5px;
     background-color: #ff533d;
     color: white
 }
