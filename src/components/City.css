@@ -1,0 +1,24 @@
+.ciudad{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    margin: 20px;
+    width: 36rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+
+h2 {
+    background-color: #ff533d;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.info > div {
+    padding: 5px;
+}

@@ -1,0 +1,8 @@
+input {
+    border-radius: 20px;
+}
+
+.boton {
+    background-color: #ff533d;
+    color: white
+}
