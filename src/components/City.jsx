@@ -1,6 +1,7 @@
 import React from 'react'
 /* import { useParams } from 'react-router-dom'; */
 import "./City.css"
+import { Link } from 'react-router-dom'
 
 export default function City({city}) {
 
@@ -22,6 +23,7 @@ export default function City({city}) {
                         <div>Cantidad de nubes: {city.clouds}</div>
                         <div>Latitud: {city.latitud}º</div>
                         <div>Longitud: {city.longitud}º</div>
+                        <div><Link to={"/"} className="volver">Volver</Link></div>
                     </div>
             </div>
         </div>

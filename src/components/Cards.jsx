@@ -10,6 +10,7 @@ export default function Cards({cities, onClose}) {
           key={c.id}
           max={c.max}
           min={c.min}
+          temp={c.temp}
           name={c.name}
           img={c.img}
           onClose={() => onClose(c.id)}

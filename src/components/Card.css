@@ -1,24 +1,56 @@
 .card {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   margin: 20px;
-  width: 18rem;
+  width: 16rem;
   border-radius: 20px;
-  background-color: rgb(180, 180, 180);
+  background-color: rgba(238, 237, 237, 0.568);
 }
 
 .btn {
-  border-radius: 100%;
-  background-color: #ff533d;
+  border: 1px black solid;
+  border-radius: 10px;
+  font-size: small;
+  padding: 0 6px;
 }
 
+.btn:hover {
+  color: #ff533d;
+  border-color: #ff533d;
+  background-color: rgba(253, 253, 253, 0.322);
+}
 
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 60% auto ;
+}
+
+.temp {
+  font-size: 60px;
+}
+
+.mm {
+  margin: auto;
+}
 
 .card-title {
+  font-size: x-large;
   margin-bottom: 15px;
+  text-shadow: 1px 1px 1px rgba(93, 93, 93, 0.65);
+  color: black;
+  width: 100%;
 }
 
-.card-title {
-  color: black;
+.detalles {
+  border: 1px black solid;
+  border-radius: 20px;
+  font-size: small;
+}
+
+.detalles:hover {
+  color: #ff533d;
+  border-color: #ff533d;
+  background-color: rgba(253, 253, 253, 0.322);
 }
 
 .card-title:hover {

@@ -27,7 +27,7 @@ function App() {
             img: recurso.weather[0].icon,
             id: recurso.id,
             wind: recurso.wind.speed,
-            temp: recurso.main.temp,
+            temp: Math.round(recurso.main.temp),
             name: recurso.name,
             weather: recurso.weather[0].main,
             clouds: recurso.clouds.all,

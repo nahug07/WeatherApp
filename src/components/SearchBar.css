@@ -2,8 +2,10 @@ input {
     border-radius: 20px;
 }
 
-.boton {
-    margin-left: 5px;
+
+
+.botonAgregar {
+    margin-left: 10px;
     background-color: #ff533d;
-    color: white
+    color: white;
 }
