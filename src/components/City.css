@@ -7,13 +7,13 @@
     background-color: rgba(238, 237, 237, 0.568);
     margin: 20px;
     width: 36rem;
-    height: 20rem;
+    height: 32rem;
     border-radius: 20px;
 }
 
 h2 {
     background-color: #ff533d;
-    color: white;
+    color: rgb(228, 228, 228);
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -24,7 +24,7 @@ h2 {
 }
 
 .volver {
-    border: 1px black solid;
+    border: 1px rgb(40, 40, 40) solid;
     border-radius: 10px;
     font-size: small;
     padding: 4px;

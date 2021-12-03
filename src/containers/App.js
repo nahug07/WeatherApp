@@ -33,6 +33,12 @@ function App() {
             clouds: recurso.clouds.all,
             latitud: recurso.coord.lat,
             longitud: recurso.coord.lon,
+            humidity: recurso.main.humidity,
+            visibility: recurso.visibility,
+            pressure: recurso.main.pressure,
+            timezone: recurso.timezone,
+            country: recurso.sys.country,
+            feels_like: recurso.main.feels_like
           };
           setCities((oldCities) => [...oldCities, ciudad]);
         } else {

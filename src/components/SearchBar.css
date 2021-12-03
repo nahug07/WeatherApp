@@ -1,5 +1,6 @@
 input {
     border-radius: 20px;
+    background-color: rgb(228, 228, 228);
 }
 
 
@@ -7,5 +8,5 @@ input {
 .botonAgregar {
     margin-left: 10px;
     background-color: #ff533d;
-    color: white;
+    color: rgb(228, 228, 228);
 }

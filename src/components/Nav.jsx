@@ -17,10 +17,10 @@ function Nav({ onSearch }) {
             className="d-inline-block align-top"
             alt=""
           />
-          Weather App
+          Clima App
         </span>
       </Link>
-      <Link to={"/about"}>About</Link>
+      <Link to={"/about"}></Link>
       <SearchBar onSearch={onSearch} />
     </nav>
   );
