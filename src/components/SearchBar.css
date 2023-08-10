@@ -4,7 +4,7 @@ input {
 }
 
 .botonAgregar {
-    margin-left: 10px;
+    margin: 5px 0 5px 10px;
     background-color: #ff533d;
     color: rgb(228, 228, 228);
 }
@@ -12,4 +12,5 @@ input {
 .inputCity {
     width: 280px;
     padding-left: 15px;
+    margin: 5px 0;
 }
