@@ -1,28 +1,14 @@
 .card {
-  font-family: 'Ubuntu', sans-serif;
-  margin: 20px;
   width: 16rem;
   border-radius: 20px;
-  background-color: rgba(238, 237, 237, 0.568);
-}
-
-.btn {
-  border: 1px rgb(40, 40, 40) solid;
-  border-radius: 10px;
-  font-size: small;
-  padding: 0 6px;
-}
-
-.btn:hover {
-  color: #ff533d;
-  border-color: #ff533d;
-  background-color: rgba(253, 253, 253, 0.322);
+  background-color: rgba(179, 179, 179, 0.568);
 }
 
 .grid-container{
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 60% auto ;
+  margin-bottom: 10px;
 }
 
 .temp {
@@ -31,10 +17,11 @@
 
 .mm {
   margin: auto;
+  font-size: 20px;
 }
 
 .card-title {
-  font-size: x-large;
+  font-size: 30px;
   margin-bottom: 15px;
   text-shadow: 1px 1px 1px rgba(93, 93, 93, 0.65);
   color: rgb(40, 40, 40);

@@ -17,7 +17,7 @@ function Nav({ onSearch }) {
             className="d-inline-block align-top"
             alt=""
           />
-          Clima App
+          Weather App
         </span>
       </Link>
       <Link to={"/about"}></Link>

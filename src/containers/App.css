@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Roboto&display=swap');
 
 .App {
   text-align: center;
   background-color: #0F1626;
   height: 100%;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .row {

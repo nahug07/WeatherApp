@@ -9,10 +9,13 @@ import City from "../components/City";
 const apiKey = "4ae2636d8dfbdc3044bede63951a019b";
 
 function App() {
+
   const [cities, setCities] = useState([]);
+
   function onClose(id) {
     setCities((oldCities) => oldCities.filter((c) => c.id !== id));
   }
+
   function onSearch(ciudad) {
     //Llamado a la API del clima
     fetch(
@@ -40,12 +43,14 @@ function App() {
             country: recurso.sys.country,
             feels_like: recurso.main.feels_like
           };
-          setCities((oldCities) => [...oldCities, ciudad]);
+            setCities((oldCities) => [...oldCities, ciudad]);
+          
         } else {
           alert("Ciudad no encontrada");
         }
       });
   }
+
   function onFilter(ciudadId) {
     let ciudad = cities.filter((c) => c.id === parseInt(ciudadId));
     if (ciudad.length > 0) {
@@ -54,16 +59,9 @@ function App() {
       return null;
     }
   }
+
   return (
     <div className="App">
-      {/*   <Nav onSearch={onSearch}/>
-      <div>
-        <Cards
-          cities={cities}
-          onClose={onClose}
-        />
-      </div>
-      <hr /> */}
       <Route path={"/"} render={() => <Nav onSearch={onSearch} />} />
       <Route
         exact
