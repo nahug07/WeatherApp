@@ -6,7 +6,8 @@
 
 .container {
     background-color: rgba(179, 179, 179, 0.568);
-    width: 36rem;
+    width: 90vw;
+    max-width: 600px;
     height: 41rem;
     border-radius: 20px;
     padding: 0;
