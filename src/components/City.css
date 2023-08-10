@@ -1,31 +1,50 @@
 .ciudad{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .container {
-    background-color: rgba(238, 237, 237, 0.568);
-    margin: 20px;
+    background-color: rgba(179, 179, 179, 0.568);
     width: 36rem;
-    height: 32rem;
+    height: 41rem;
     border-radius: 20px;
+    padding: 0;
 }
 
 h2 {
     background-color: #ff533d;
     color: rgb(228, 228, 228);
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
 }
 
 .info > div {
     padding: 5px;
 }
 
+.info > div :last-child {
+    margin-top: 6px;
+}
+
+.boxItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.item {
+    width: 50%;
+}
+
 .volver {
     border: 1px rgb(40, 40, 40) solid;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: small;
     padding: 4px;
 }

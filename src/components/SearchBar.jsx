@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "./SearchBar.css"
 
 export default function SearchBar({onSearch}) {
+  
   const [city, setCity] = useState("");
+
   return (
     <form onSubmit={(e) => {
       e.preventDefault();
@@ -10,8 +12,9 @@ export default function SearchBar({onSearch}) {
       setCity('');
     }}>
       <input
+        className="inputCity"
         type="text"
-        placeholder="  Ciudad..."
+        placeholder="Buscar ciudad . . ."
         value={city}
         onChange={e => setCity(e.target.value)}
       />

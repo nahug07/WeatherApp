@@ -1,12 +1,15 @@
 input {
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: rgb(228, 228, 228);
 }
-
-
 
 .botonAgregar {
     margin-left: 10px;
     background-color: #ff533d;
     color: rgb(228, 228, 228);
+}
+
+.inputCity {
+    width: 280px;
+    padding-left: 15px;
 }
