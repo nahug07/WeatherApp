@@ -43,8 +43,11 @@ function App() {
             country: recurso.sys.country,
             feels_like: recurso.main.feels_like
           };
-            setCities((oldCities) => [...oldCities, ciudad]);
-          
+
+         if(cities.find((c) => c.id === ciudad.id) === undefined){
+          setCities((oldCities) => [...oldCities, ciudad]);
+         }
+    
         } else {
           alert("Ciudad no encontrada");
         }
